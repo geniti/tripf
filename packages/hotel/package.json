@@ -1,0 +1,59 @@
+{
+	"name": "@tripfinder/hotel-cra",
+	"version": "2.1.0",
+	"dependencies": {
+		"@glidejs/glide": "^3.4.1",
+		"@styled-system/theme-get": "^5.1.2",
+		"antd": "^4.2.2",
+		"dayjs": "^1.10.4",
+		"history": "^5.0.0",
+		"js-cookie": "^2.2.1",
+		"little-state-machine": "^3.0.2",
+		"lodash": "^4.17.20",
+		"moment": "^2.29.1",
+		"nprogress": "^0.2.0",
+		"react": "^16.13.1",
+		"react-accessible-accordion": "^3.3.4",
+		"react-content-loader": "^6.0.1",
+		"react-dates": "^21.8.0",
+		"react-dom": "^16.13.1",
+		"react-google-maps": "^9.4.5",
+		"react-hook-form": "^5.7.2",
+		"react-icons": "^4.2.0",
+		"react-image-gallery": "^1.0.8",
+		"react-loadable": "^5.5.0",
+		"react-multi-carousel": "^2.6.1",
+		"react-router-dom": "^5.2.0",
+		"react-scripts": "^3.4.1",
+		"react-scroll": "^1.8.1",
+		"react-share": "^4.3.1",
+		"react-stickynode": "^3.0.4",
+		"react-waypoint": "^9.0.3",
+		"recompose": "^0.30.0",
+		"styled-components": "^5.2.1",
+		"styled-system": "^5.1.5"
+	},
+	"scripts": {
+		"start": "react-app-rewired start",
+		"start:cra": "react-scripts start",
+		"build": "react-app-rewired build",
+		"test": "react-app-rewired test",
+		"serve": "serve -s build",
+		"eject": "react-scripts eject",
+		"host:firebase": "firebase deploy"
+	},
+	"eslintConfig": {
+		"extends": "react-app"
+	},
+	"browserslist": [
+		">0.2%",
+		"not dead",
+		"not ie <= 11",
+		"not op_mini all"
+	],
+	"devDependencies": {
+		"babel-plugin-import": "^1.13.0",
+		"customize-cra": "^1.0.0",
+		"react-app-rewired": "^2.1.8"
+	}
+}

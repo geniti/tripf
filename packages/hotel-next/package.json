@@ -1,0 +1,68 @@
+{
+  "name": "@tripfinder/hotel-next",
+  "version": "2.1.0",
+  "scripts": {
+    "dev": "next -p 3001",
+    "start": "next -p 3001",
+    "build": "next build",
+    "serve": "next start -p 3001"
+  },
+  "dependencies": {
+    "@glidejs/glide": "^3.4.1",
+    "@redq/reuse-modal": "^1.2.4",
+    "@styled-system/theme-get": "^5.1.2",
+    "antd": "^4.2.2",
+    "dayjs": "^1.10.4",
+    "esm": "^3.2.25",
+    "history": "^5.0.0",
+    "isomorphic-unfetch": "^3.1.0",
+    "js-cookie": "^2.2.1",
+    "little-state-machine": "^3.0.2",
+    "lodash": "^4.17.20",
+    "mobile-detect": "^1.4.4",
+    "moment": "^2.29.1",
+    "next": "^10.0.6",
+    "next-compose-plugins": "^2.2.1",
+    "next-cookies": "^2.0.3",
+    "next-optimized-images": "^2.6.2",
+    "postcss-preset-env": "^6.7.0",
+    "react": "^16.13.1",
+    "react-accessible-accordion": "^3.3.4",
+    "react-content-loader": "^6.0.1",
+    "react-dates": "^21.8.0",
+    "react-dom": "^16.13.1",
+    "react-google-maps": "^9.4.5",
+    "react-hook-form": "^5.7.2",
+    "react-icons": "^4.2.0",
+    "react-image-gallery": "^1.0.8",
+    "react-multi-carousel": "^2.6.1",
+    "react-scroll": "^1.8.1",
+    "react-share": "^4.3.1",
+    "react-stickynode": "^3.0.4",
+    "react-waypoint": "^9.0.3",
+    "recompose": "^0.30.0",
+    "styled-components": "^5.2.1",
+    "styled-system": "^5.1.5",
+    "use-http": "^1.0.16",
+    "webpack-filter-warnings-plugin": "^1.2.1"
+  },
+  "devDependencies": {
+    "babel-plugin-import": "^1.13.0",
+    "babel-plugin-styled-components": "^1.12.0",
+    "cross-env": "^7.0.3",
+    "imagemin-mozjpeg": "^9.0.0",
+    "imagemin-optipng": "^8.0.0",
+    "imagemin-svgo": "^8.0.0",
+    "null-loader": "^4.0.1"
+  },
+  "browser": {
+    "fs": false,
+    "path": false
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
